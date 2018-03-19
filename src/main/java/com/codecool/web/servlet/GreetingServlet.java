@@ -23,4 +23,6 @@ public class GreetingServlet extends HttpServlet {
 
         req.getRequestDispatcher("greeting.jsp").forward(req, resp);
     }
+
+
 }

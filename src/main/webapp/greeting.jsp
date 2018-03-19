@@ -7,7 +7,7 @@
     <title>Greeting</title>
 </head>
 <body>
-<h1>${greeting.text}</h1>
+<h1><%=(String) request.getAttribute("message")%></h1>
 <a href="index.html">Go back</a>
 </body>
 </html>
